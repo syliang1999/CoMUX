@@ -1,8 +1,12 @@
-# Welcome to CoMUX: A high-performance MUX for microfluidic biochips!
+# Welcome to CoMUX: A combinatorial-coding-baseaed high-performance MUX for microfluidic biochips!
 ### Tnis repo is the open source tool correspond to paper published in ICCAD' 22:
 https://dl.acm.org/doi/abs/10.1145/3508352.3549353
 
-<img width="500" alt="image" src="https://github.com/syliang1999/CoMUX/assets/111522473/ffe95880-fe4d-45f2-bb0b-1213122c828d">
+This might be the $\color{yellow}{SOTA}$ microfluidic MUX. Here is an example to show how powerful it is:
+Using 6 independent controllers, the classic-coding-based MUX can only address up to $\color{yellow}{2^{6/2}=8}$ channels, while CoMUX can address up to $\color{yellow}{C^6_3=20}$ channels.
+This difference can become larger as the number of controllers increases.
+
+<img width="500" alt="image" src="https://github.com/syliang1999/CoMUX/assets/111522473/f4a6e5ad-8895-4d60-bb79-75a9fe42a153">
 
 # *** This repo can do two things: ***
 ### 1. Providing an easy-to-use tool to synthesize suggested CoMUX designs of different scales;
